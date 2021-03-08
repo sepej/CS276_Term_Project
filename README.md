@@ -44,7 +44,7 @@ The following are required for your term project:
 9. Use Case Code (10 points each)
 10. Index choice
 
-USE CASES – SQL Coding
+[USE CASES – SQL Coding](https://github.com/sepej/CS276_Term_Project/tree/main/Use%20Case%20Code)
 
 1. A Visitor makes a reservation for June 1, 2019 to June 14, 2019 for one of the Guest Houses, and a monk must be assigned for each of those weeks. Using one query, display the Visitor name, the Guest house, and the monk assigned for each week.
 2. The Abbott wants to know all room numbers, as well as those customer names that are staying at the monastery on Friday, June 7, 2019. Not all rooms will be filled….
@@ -52,7 +52,7 @@ USE CASES – SQL Coding
 4. The Abbott wants to know the total pay for employee 101 between June 1, 2019 and June 14, 2019. You must calculate the number of hours (based on start and end times of each of their shifts), and using the hourly pay, calculate the total pay.
 5. A Monk needs to find out which guest rooms are empty (the guests have checked out) on June 8 so he can clean them.
 
-USE CASES – PL/SQL Coding
+[USE CASES – PL/SQL Coding](https://github.com/sepej/CS276_Term_Project/tree/main/Use%20Case%20Code)
 
 6. A vendor delivers a product to the abbey to one of the stores. Write a stored procedure to take in the product ID and a delivery amount and price and insert it into the database if new, or update it if it currently is sold. This will require updating the inventory count. Make sure you test both conditions.
 7. Write a function that will display the total number of sales for one of the stores between two dates. I should be able to call the function passing in a begin date and an end date and store code.
