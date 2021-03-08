@@ -7,8 +7,6 @@ c.	A procedure which will subtract from inventory
 d.	Print out the customer id, the first and last names of the customer, the purchase date, and the total cost of the purchase (including the calculated sales tax).
 */
 
-set SERVEROUTPUT ON;
-
 CREATE OR REPLACE PACKAGE transaction_calc_package AS
 
     CURSOR transaction_information(p_trans_id varchar2) IS
@@ -94,18 +92,16 @@ CREATE OR REPLACE PACKAGE BODY transaction_calc_package AS
 END transaction_calc_package;
 /
 
-
+-- Sample code to test the package
 SET SERVEROUTPUT ON;
 
 DECLARE
-    visitor_id varchar2(10);
-    transaction_id varchar2(10);
+    visitor_id varchar2(10) := '2021112';
+    transaction_id varchar2(10) := '2021002';
     v_sales_tax number(7,2);
 BEGIN
     dbms_output.put_line('Calculate Sales Tax');
     dbms_output.put_line('--------------------');
-    visitor_id := '2021112';
-    transaction_id := '2021002';
     v_sales_tax := transaction_calc_package.sales_tax_calc(visitor_id, transaction_id);
     dbms_output.put_line('--------------------');
     transaction_calc_package.handle_transaction_proc(visitor_id, transaction_id);
