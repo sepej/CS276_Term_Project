@@ -1,4 +1,5 @@
 /* Ruslan Kalashnikov & Joseph Sepe - CS276 WINTER 2021
+USE CASE 1:
 A Visitor makes a reservation for Feb 21, 2021 to Feb 27, 2021 for one of the Guest Houses, and a monk must be assigned for each of those weeks.
 Using one query, display the Visitor name, the Guest house, and the monk assigned for each week.
 */
