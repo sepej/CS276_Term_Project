@@ -40,8 +40,8 @@ The following are required for your term project:
 5. Conceptual ERD
 6. Logical ERD
 7. Data Warehouse
-8. Physical Implementation (SQL) scripts (in a zip file, and separate from the report itself)
-9. Use Case Code (10 points each)
+8. [Physical Implementation (SQL) scripts (in a zip file, and separate from the report itself)](https://github.com/sepej/CS276_Term_Project/blob/main/PHYS_DESIGN.sql)
+9. [Use Case Code (10 points each)](https://github.com/sepej/CS276_Term_Project/tree/main/Use%20Case%20Code)
 10. Index choice
 
 [USE CASES – SQL Coding](https://github.com/sepej/CS276_Term_Project/tree/main/Use%20Case%20Code)
