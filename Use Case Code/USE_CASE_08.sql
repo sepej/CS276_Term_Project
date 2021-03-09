@@ -1,6 +1,6 @@
 /* Ruslan Kalashnikov & Joseph Sepe - CS276 WINTER 2021
 USE CASE 8:
-Write a function that will return the count of rooms that do NOT have reservations at the Abbey on Saturday, June 8.
+Write a function that will return the count of rooms that do NOT have reservations at the Abbey on Saturday, Feb 2, 2021.
 */
 
 SET SERVEROUTPUT ON;

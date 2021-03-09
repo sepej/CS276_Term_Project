@@ -1,6 +1,6 @@
 /* Ruslan Kalashnikov & Joseph Sepe - CS276 WINTER 2021
 USE CASE 4:
-The Abbott wants to know the total pay for employee 101 between June 1, 2019 and June 14, 2019.
+The Abbott wants to know the total pay for employee EMP55555 between Feb 2, 2021 and March 21, 2021.
 You must calculate the number of hours (based on start and end times of each of their shifts), and using the hourly pay, calculate the total pay.
 */
 
