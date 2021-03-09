@@ -5,44 +5,7 @@ By **Ruslan Kalashnikov &amp; Joseph Sepe**
 
 ---
 
-## Project Description
-
-### Buckfast Abbey
-
-Nestled in the shadow of Dartmoor, in a beautiful wooded valley beside the river Dart, Buckfast Abbey offers visitors a tranquil refuge from the hectic pace of everyday life. The Abbey is a working monastery where a community of Benedictine monks live self-sufficiently, welcoming visitors from all around the world.
-
-At the heart of the site is the Abbey Church, a spiritual haven for the many thousands of visitors who come each year. There is an overwhelming sense of peace as soon as you enter the grounds with the church surrounded by gardens which in the summer come alive with color.
-
-Within the Abbey precinct, visitors can browse in the Bookshop or visit the Monastic Shop which has an extraordinary array of products made by nuns and monks across Europe. There is also a gift shop and information point by the Westgate entrance.
-
-In the Grange Restaurant, you can relax and enjoy tea and homemade cakes or choose from a range of hot meals and light snacks which are changed daily.
-
-Escape for a while at Buckfast – worlds away from the busy rush of the everyday and just a few minutes from the A38.
-
----
-
-Buckfast Abbey has 12 Guest Houses for visitors to reserve, and are available at $60 a night. A monk is assigned to work a single guest house for a week on a rotational basis.
-
-There are three shops available to browse: A Bookshop which has a wide range of religious books as well as books about the local county; a Gift Shop for the religious; and a Candy Shop which sells items made by nuns and monks from monasteries (candies, jams, candles). Monks who have not taken a vow of silence work in the shops and Guest Houses and are assigned on a rotating basis.
-
-The Grange restaurant has lay workers who work there every day except holidays. Payroll is paid twice a month. Reservations must be made at least 24 hours in advance.
-
-Inventory for the stores is delivered twice a week, on Mondays and Thursdays, and shipping is all done online because of the pandemic.
-
----
-
-The following are required for your term project:
-
-1. Title Page with Abstract
-2. Table of Contents
-3. Entities List
-4. Business Rules
-5. Conceptual ERD
-6. Logical ERD
-7. Data Warehouse
-8. [Physical Implementation (SQL) scripts (in a zip file, and separate from the report itself)](https://github.com/sepej/CS276_Term_Project/blob/main/PHYS_DESIGN.sql)
-9. [Use Case Code (10 points each)](https://github.com/sepej/CS276_Term_Project/tree/main/Use%20Case%20Code)
-10. Index choice
+## Use Cases
 
 [USE CASES – SQL Coding](https://github.com/sepej/CS276_Term_Project/tree/main/Use%20Case%20Code)
 
@@ -63,13 +26,3 @@ The following are required for your term project:
   b. A function that will calculate the amount of sales tax based on a purchase from Buckfast Abbey, depending on the state where the purchaser is located  
   c. A procedure which will subtract from inventory  
   d. Print out the customer id, the first and last names of the customer, the purchase date, and the total cost of the purchase (including the calculated sales tax).
-
-| **Description** | **Points** |
-| --- | --- |
-| **Entities** | **20** |
-| **Business Rules** | **20** |
-| **Conceptual ERD** | **20** |
-| **Logical ERD** | **20** |
-| **Table Creates** | **20** |
-| **Use Case Code** | **100** |
-| **TOTAL** | **200** |
