@@ -7,5 +7,5 @@ By **Ruslan Kalashnikov &amp; Joseph Sepe**
 
 ## Logical ERD
 
-![Logical ERD](https://raw.githubusercontent.com/sepej/CS276_Term_Project/main/Images/Logical%20ERD.png)
+![Logical ERD](https://github.com/sepej/CS276_Term_Project/blob/main/Images/Logical%20ERD.png?raw=true)
 

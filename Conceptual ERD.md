@@ -7,5 +7,5 @@ By **Ruslan Kalashnikov &amp; Joseph Sepe**
 
 ## Conceptual ERD
 
-![Conceptual ERD](https://raw.githubusercontent.com/sepej/CS276_Term_Project/main/Images/Conceptual%20ERD.png)
+![Conceptual ERD](https://github.com/sepej/CS276_Term_Project/blob/main/Images/Conceptual%20ERD.png?raw=true)
 

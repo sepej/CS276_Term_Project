@@ -7,7 +7,7 @@ By **Ruslan Kalashnikov &amp; Joseph Sepe**
 
 ## Data Warehouse
 
-![Data Warehouse](https://raw.githubusercontent.com/sepej/CS276_Term_Project/main/Images/Data%20Warehouse.png)
+![Data Warehouse](https://github.com/sepej/CS276_Term_Project/blob/main/Images/Data%20Warehouse.png?raw=true)
 
 #### Potential Use Cases
 
