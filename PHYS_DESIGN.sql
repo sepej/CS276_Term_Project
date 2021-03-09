@@ -184,13 +184,11 @@ add constraint fk_house_15
 foreign key (fk_house_id)
 references house(house_id);
 
-/* ADD INDEXES HERE
-create index ind_loc_to_visitor
-on visitor(phone_number);
+create index ind_loc_to_employee_by_last_name
+on time_card(last_name);
 
-create index ind_loc_to_employee
-on employee(phone_number);
-*/
+create index ind_loc_to_reservation_by_check_in_date
+on reservation(check_in_date);
 
 insert into visitor
 (visitor_id, first_name, last_name, phone_number, city_name, state)
