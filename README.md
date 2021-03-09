@@ -35,11 +35,11 @@ The following are required for your term project:
 
 1. Title Page with Abstract
 2. Table of Contents
-3. Entities List
-4. Business Rules
-5. Conceptual ERD
-6. Logical ERD
-7. Data Warehouse
+3. [Entities List](https://github.com/sepej/CS276_Term_Project/blob/main/Entites%20List.md)
+4. [Business Rules](https://github.com/sepej/CS276_Term_Project/blob/main/Business%20Rules.md)
+5. [Conceptual ERD](https://github.com/sepej/CS276_Term_Project/blob/main/Conceptual%20ERD.md)
+6. [Logical ERD](https://github.com/sepej/CS276_Term_Project/blob/main/Logical%20ERD.md)
+7. [Data Warehouse](https://github.com/sepej/CS276_Term_Project/blob/main/Data%20Warehouse.md)
 8. [Physical Implementation (SQL) scripts (in a zip file, and separate from the report itself)](https://github.com/sepej/CS276_Term_Project/blob/main/PHYS_DESIGN.sql)
 9. [Use Case Code (10 points each)](https://github.com/sepej/CS276_Term_Project/tree/main/Use%20Case%20Code)
 10. Index choice
