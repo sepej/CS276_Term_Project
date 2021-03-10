@@ -42,7 +42,7 @@ The following are required for your term project:
 7. [Data Warehouse](https://github.com/sepej/CS276_Term_Project/blob/main/Data%20Warehouse.md)
 8. [Physical Implementation (SQL) scripts (in a zip file, and separate from the report itself)](https://github.com/sepej/CS276_Term_Project/blob/main/PHYS_DESIGN.sql)
 9. [Use Case Code (10 points each)](https://github.com/sepej/CS276_Term_Project/tree/main/Use%20Case%20Code)
-10. Index choice
+10. [Index choice](https://github.com/sepej/CS276_Term_Project/blob/main/Index%20Choice.md)
 
 [USE CASES – SQL Coding](https://github.com/sepej/CS276_Term_Project/tree/main/Use%20Case%20Code)
 
@@ -59,10 +59,10 @@ The following are required for your term project:
 8. Write a function that will return the count of rooms that do NOT have reservations at the Abbey on February 2, 2021. [USE_CASE_08.sql](https://github.com/sepej/CS276_Term_Project/blob/main/Use%20Case%20Code/USE_CASE_08.sql)
 9. Write a trigger that will calculate a customer&#39;s total Guest House bill and store it in a separate table when they make a reservation at a Guest House. The customer will stay multiple days. [USE_CASE_09.sql](https://github.com/sepej/CS276_Term_Project/blob/main/Use%20Case%20Code/USE_CASE_09.sql)
 10. Write a package made up of the following: [USE_CASE_10.sql](https://github.com/sepej/CS276_Term_Project/blob/main/Use%20Case%20Code/USE_CASE_10.sql)  
-  a. A procedure that will receive a purchase ID and the customer number  
-  b. A function that will calculate the amount of sales tax based on a purchase from Buckfast Abbey, depending on the state where the purchaser is located  
-  c. A procedure which will subtract from inventory  
-  d. Print out the customer id, the first and last names of the customer, the purchase date, and the total cost of the purchase (including the calculated sales tax).
+    a. A procedure that will receive a purchase ID and the customer number  
+    b. A function that will calculate the amount of sales tax based on a purchase from Buckfast Abbey, depending on the state where the purchaser is located  
+    c. A procedure which will subtract from inventory  
+    d. Print out the customer id, the first and last names of the customer, the purchase date, and the total cost of the purchase (including the calculated sales tax).
 
 | **Description** | **Points** |
 | --- | --- |
