@@ -27,5 +27,4 @@ By **Ruslan Kalashnikov &amp; Joseph Sepe**
 10. A **MONK** may work at 0 to many **HOUSE**s; A **HOUSE** may have 0 to many **MONK**s.
     1. A **TIME CARD** must have 1 and only 1 **MONK**; A **MONK** may have 0 to many **TIME CARD**s.
     2. A **TIME CARD** must be for 1 and only 1 **HOUSE**; A **HOUSE** may have 0 to many **TIME CARD**s.
-11. ~~A **MONK** may be assigned to 0 to 1 **SHOP**s; A **SHOP** may have 0 to many **MONK**s.~~
 
