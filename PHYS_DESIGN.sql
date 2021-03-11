@@ -15,8 +15,7 @@ drop table PAYCHECK cascade constraints;
 drop table PAYROLL cascade constraints;
 
 create table HOUSE
-(house_id 		varchar2(10) primary key,
-num_of_rooms 		number(3) not null);
+(house_id 		varchar2(10) primary key);
 
 create table PAYROLL
 (payroll_id		varchar2(10) primary key);
@@ -44,7 +43,6 @@ fk_inventory_id		varchar2(10) not null);
 create table TRANS_LINE_ITEM
 (trans_item_id   	varchar2(10) primary key,
 quantity    		number(7)  not null,
-unit_price		number(7,2) not null,
 fk_product_id		varchar2(10) not null,
 fk_trans_id		varchar2(10) not null);
 
@@ -184,8 +182,8 @@ add constraint fk_house_15
 foreign key (fk_house_id)
 references house(house_id);
 
-create index ind_loc_to_employee_by_last_name
-on time_card(last_name);
+create index ind_loc_to_employee_by_start_date_time
+on time_card(start_date_time);
 
 create index ind_loc_to_reservation_by_check_in_date
 on reservation(check_in_date);
@@ -213,53 +211,53 @@ values
 
 
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1001', 4);
+('h1001');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1002', 6);
+('h1002');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1003', 7);
+('h1003');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1004', 5);
+('h1004');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1005', 4);
+('h1005');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1006', 2);
+('h1006');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1007', 5);
+('h1007');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1008', 12);
+('h1008');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1009', 6);
+('h1009');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1010', 3);
+('h1010');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1011', 4);
+('h1011');
 insert into house
-(house_id, num_of_rooms)
+(house_id)
 values
-('h1012', 6);
+('h1012');
 
 
 insert into payroll
@@ -369,45 +367,45 @@ values
 
 
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line111',2,45,'prod005', '2021001');
+('line111',2,'prod005', '2021001');
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line112',3,12,'prod002', '2021001');
+('line112',3,'prod002', '2021001');
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line113',4,45,'prod005', '2021002');
+('line113',4,'prod005', '2021002');
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line114',4,12,'prod002', '2021002');
+('line114',4,'prod002', '2021002');
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line115',1,45,'prod005', '2021003');
+('line115',1,'prod005', '2021003');
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line116',2,7,'prod004', '2021003');
+('line116',2,'prod004', '2021003');
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line117',4,45,'prod005', '2021004');
+('line117',4,'prod005', '2021004');
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line118',2,7,'prod004', '2021004');
+('line118',2,'prod004', '2021004');
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line119',7,5,'prod001', '2021005');
+('line119',7,'prod001', '2021005');
 insert into trans_line_item
-(trans_item_id, quantity, unit_price, fk_product_id, fk_trans_id)
+(trans_item_id, quantity, fk_product_id, fk_trans_id)
 values
-('line120',1,25,'prod003', '2021005');
+('line120',1,'prod003', '2021005');
 
 
 insert into room
@@ -598,4 +596,3 @@ values
 
 
 commit;
-
