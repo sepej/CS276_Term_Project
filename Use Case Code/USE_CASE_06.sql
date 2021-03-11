@@ -2,7 +2,7 @@
 USE CASE 6:
 A vendor delivers a product to the abbey to one of the stores.
 Write a stored procedure to take in the product ID and a delivery amount and price and insert it into the database if new,
-or update it if it currently is sold.  This will require updating the inventory count.  Make sure you test both conditions.
+or update it if it currently is sold. This will require updating the inventory count. Make sure you test both conditions.
 */
 
 set serveroutput on;
@@ -64,6 +64,7 @@ begin
     where inventory_id = v_inventory_id;
 
     update inventory set quantity_on_hand = (v_current_amount + v_delivery_amount) where inventory_id = v_inventory_id;
+    update product set product_price = v_price where inventory_id = v_inventory_id;
   end if;
 end;
 /

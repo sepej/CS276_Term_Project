@@ -11,4 +11,4 @@ select  visitor.first_name as "visitor first name", visitor.last_name as "visito
     join room on fk_room_id = room_id
     join time_card on time_card.fk_house_id = room.fk_house_id
     join monk on monk.monk_id = time_card.fk_monk_id
-        where time_card.start_date_time between check_in_date and check_out_date;
+        where time_card.start_date_time between to_date('02-21-2021', 'mm-dd-yyyy') and to_date('02-27-2021', 'mm-dd-yyyy');

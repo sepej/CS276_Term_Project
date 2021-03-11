@@ -31,7 +31,7 @@ end;
 /
 
 -- Sample code to check if room is available
-select check_if_room_available('1003', to_date('02/07/2021', 'mm/dd/yyyy'), to_date('02/18/2021', 'mm/dd/yyyy')) as room_is_available from dual;
+select check_if_room_available('1003', to_date('03/26/2021', 'mm/dd/yyyy'), to_date('03/30/2021', 'mm/dd/yyyy')) as room_is_available from dual;
 
 -- Create the trigger on an insert into res_line_item
 CREATE OR REPLACE TRIGGER visitor_total_calc 
@@ -80,10 +80,15 @@ END;
 insert into reservation
 (reservation_id, check_in_date, check_out_date, number_guests, fk_visitor_id)
 values
-('135554', to_date('03/15/2021', 'mm/dd/yyyy'), to_date('03/25/2021', 'mm/dd/yyyy'), 6, '2021113');
+('135554', to_date('03/26/2021', 'mm/dd/yyyy'), to_date('03/30/2021', 'mm/dd/yyyy'), 6, '2021113');
 
 -- Insert a new res_line_item
 insert into res_line_item
 (res_line_item_id, fk_room_id, fk_reservation_id)
 values
 ('line3244', '1001', '135554');
+
+-- Select to look at the new reservation
+select * from reservation join res_line_item
+on res_line_item.fk_reservation_id = reservation.reservation_id
+where reservation_id = '135554';

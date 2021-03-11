@@ -17,5 +17,6 @@ By **Ruslan Kalashnikov &amp; Joseph Sepe**
 8. Reservation
 9. Monk
 10. Employee
+11. Time Card
 12. Payroll
 13. Inventory

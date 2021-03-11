@@ -39,7 +39,7 @@ CREATE OR REPLACE PACKAGE BODY transaction_calc_package AS
     BEGIN
         FOR rec IN transaction_information(p_trans_id) 
         LOOP
-                var_total_paid := var_total_paid + (rec.quantity * rec.unit_price);
+                var_total_paid := var_total_paid + (rec.quantity * rec.product_price);
                 var_visitor_state := lower(rec.state);
         END LOOP;
     
@@ -71,7 +71,7 @@ CREATE OR REPLACE PACKAGE BODY transaction_calc_package AS
     BEGIN
         FOR rec IN transaction_information(p_trans_id) 
         LOOP
-            var_total_paid := var_total_paid + (rec.quantity * rec.unit_price);
+            var_total_paid := var_total_paid + (rec.quantity * rec.product_price);
             var_visitor_state := lower(rec.state);
             var_visitor_name := rec.first_name || ' ' || rec.last_name;
             var_transaction_date := rec.trans_date;
